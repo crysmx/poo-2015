@@ -1,0 +1,26 @@
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\bin\Debug\poo-paint.exe.config
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\bin\Debug\poo-paint.exe
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\bin\Debug\poo-paint.pdb
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.csprojResolveAssemblyReference.cache
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo_paint.AreaDeDesenho.resources
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.csproj.GenerateResource.Cache
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.exe
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.pdb
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\bin\Debug\poo-paint.exe.manifest
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\bin\Debug\poo-paint.application
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.TrustInfo.xml
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.exe.manifest
+C:\Users\Douglas\Documents\Visual Studio 2013\Projects\poo-2015-solucao-master\poo-paint\poo-paint\obj\Debug\poo-paint.application
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\bin\Debug\poo-paint.exe.config
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.exe
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.pdb
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.csprojResolveAssemblyReference.cache
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo_paint.AreaDeDesenho.resources
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.csproj.GenerateResource.Cache
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\bin\Debug\poo-paint.exe.manifest
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\bin\Debug\poo-paint.application
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\bin\Debug\poo-paint.exe
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\bin\Debug\poo-paint.pdb
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.TrustInfo.xml
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.exe.manifest
+C:\Users\Douglas\Documents\GitHub\poo-2015\poo-paint\poo-paint\obj\Debug\poo-paint.application

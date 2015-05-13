@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="poo-paint.exe" version="1.0.0.1" publicKeyToken="f78ed6e8fc036dae" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="poo-paint" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="poo-paint.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opções de Manifesto do UAC
+            Se você deseja alterar o nível do Controle de Contas do Usuário (UAC) do Windows, substitua o 
+            nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            A especificação do nó requestedExecutionLevel irá desabilitar a virtualização de registro e de arquivo.
+            Se você deseja utilizar Virtualização de Registro e de Arquivo para compatibilidade 
+            com versões anteriores, então exclua o nó requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="poo-paint.exe" size="6144">
+      <assemblyIdentity name="poo-paint" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z396txy6FYUy2ZinNKzK+pnshVBwba535aKJy3Ikxz0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="poo-paint.exe.config" size="182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PbQiHFOih9uz3RPvvsStiPKcsu3PE8/gyCn2QGUyyf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Uma lista de todas as janelas de versões com as quais este aplicativo é projetado para funcionar. 
+      Windows selecionará automaticamente o ambiente mais compatível.-->
+      <!-- Se o seu aplicativo foi projetado para funcionar com o Windows Vista, descomente o nó supportedOS a seguir-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- Se o seu aplicativo é projetado para trabalhar com Windows 7, remova o comentário no nó supportedOS a seguir-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- Se o seu aplicativo foi projetado para funcionar com o Windows 8, descomente o nó supportedOS a seguir-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- Se seu aplicativo foi projetado para funcionar com o Windows 8.1, remova o comentário do nó supportedOS a seguir-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Douglas-PC\Douglas" issuerKeyHash="c9902b3fedc188e3a72026e4fd6e725ec05f4173" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xDNSHF8Jhh0BlgPN5jpooc8sMKb2x/evNy7WXvsylZ8=</DigestValue></Reference></SignedInfo><SignatureValue>W+6sDW4d1WId8FK3G6KGruC5/N5RgYhikWBFJB0U4vST5HwqSGx71+gC3V6EnL41sf6Vm5bmN/zvB3Pamg/gBrO26mTRWX7EJctJztfVlNic1s7jRll6nGAWhRXNAsAxoB0E5kFhpy2KgbwDCXSKvQjPhL6cmoWFojo9vRrm4bc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wJn+//+VM6cHpZmyP7ez7/zxIby6Q6SLJz34Q4zUy3Zi5+8ckBdE3TiOZlzki7uXLidYCz/ukQ8AOebEiyfouPRv1uA60VeSaC3HFEvU2fMoo16q9DgbAgKuQ4feKekAjiqG3LEq1DqNNGOHgKRoeLwvdUMfZfGgYP4NsUQuKhc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9f9532fb5ed62e37aff7c7f6a6302ccfa1683ae6cd0396011d86095f1c5233c4" Description="" Url=""><as:assemblyIdentity name="poo-paint.exe" version="1.0.0.1" publicKeyToken="f78ed6e8fc036dae" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Douglas-PC\Douglas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4ZHaJMWU7gOh5/1Rf99Ke1uLOnu3OS3isYxDrNZOypA=</DigestValue></Reference></SignedInfo><SignatureValue>h2tt1JHECyCozo6WbSdid1SPA1VDKIRQQFczC1oPPcZEYP7PQfirCzxHe8z930oy44MOEVQb/YJhotXzdSZZ0kL020EsMbQX8JGQ5+kC33Q7Funi8dfDWoMCIlaUGYCT/NjJCWOageThUG+Aa21PfdUbJSbO40iVj43p46+UPdo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wJn+//+VM6cHpZmyP7ez7/zxIby6Q6SLJz34Q4zUy3Zi5+8ckBdE3TiOZlzki7uXLidYCz/ukQ8AOebEiyfouPRv1uA60VeSaC3HFEvU2fMoo16q9DgbAgKuQ4feKekAjiqG3LEq1DqNNGOHgKRoeLwvdUMfZfGgYP4NsUQuKhc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQIAQU594A4ZxCCrAUquwzOjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABvAHUAZwBsAGEAcwAtAFAAQwBcAEQAbwB1AGcAbABhAHMwHhcNMTUwNTA2MDA0NTEyWhcNMTYwNTA1MDY0NTEyWjAvMS0wKwYDVQQDHiQARABvAHUAZwBsAGEAcwAtAFAAQwBcAEQAbwB1AGcAbABhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMCZ/v//lTOnB6WZsj+3s+/88SG8ukOkiyc9+EOM1Mt2YufvHJAXRN04jmZc5Iu7ly4nWAs/7pEPADnmxIsn6Lj0b9bgOtFXkmgtxxRL1NnzKKNeqvQ4GwICrkOH3inpAI4qhtyxKtQ6jTRjh4CkaHi8L3VDH2XxoGD+DbFELioXAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAny4FR8bg5g/VgEFeBFw89XyQvaiRgUqcYP2k43oJEaO6BKnmVpGDgvhEzximbuceo6algizPH2zysXmn/SfeewoH8XFqpxuDUPKtLbWJcyobpu3fparwyMCSPtXz4qXTHrrUyOnbPbZlhRFCFPBMG7Ubvtmg4IcAyWQeyTQH0dc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
